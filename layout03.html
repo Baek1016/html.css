@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>layout03</title>
-
+    <!-- style tap뒤에 css를 넣을수있다.(이것을 사용시 최상위 우선권) -->
+    <!-- link  -->
+    <link rel="stylesheet" href="./css/layout03.css">
 </head>
 
 <body>
@@ -34,17 +36,82 @@
     <div class="content cnt1">
         <div class="contentGrid">
             <div class="header">
-                <h2>content title</h2>
+                <h2>content title1</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit cumque nemo deserunt accusantium enim
                     doloribus? Consectetur officia illo eos labore! Quis, mollitia asperiores velit non saepe neque
                     perferendis consectetur voluptas.</p>
             </div>
             <div class="section">
                 <div class="artTop">
-
+                    <div class="article">
+                        <img src="" alt="">
+                        <div class="texts">
+                            <h3>Segment title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis
+                                necessitatibus repudiandae nulla, nihil ipsa soluta voluptatibus eum voluptatum, eos
+                                labore quasi distinctio voluptas natus magnam at dignissimos quisquam deleniti.</p>
+                            <div class="icons">
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="" alt="">
+                        <div class="texts">
+                            <h3>Segment title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis
+                                necessitatibus repudiandae nulla, nihil ipsa soluta voluptatibus eum voluptatum, eos
+                                labore quasi distinctio voluptas natus magnam at dignissimos quisquam deleniti.</p>
+                            <div class="icons">
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="artBottom">
-
+                    <div class="article">
+                        <!-- >와 +기로 한번에 할수있다다. -->
+                        <!-- div.article*3>img+div.texts  -->
+                        <img src="" alt="">
+                        <div class="texts">
+                            <h3>Segment title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis
+                                necessitatibus repudiandae nulla, nihil ipsa soluta voluptatibus eum voluptatum, eos
+                                labore quasi distinctio voluptas natus magnam at dignissimos quisquam deleniti.</p>
+                            <div class="icons">
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="" alt="">
+                        <div class="texts">
+                            <h3>Segment title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis
+                                necessitatibus repudiandae nulla, nihil ipsa soluta voluptatibus eum voluptatum, eos
+                                labore quasi distinctio voluptas natus magnam at dignissimos quisquam deleniti.</p>
+                            <div class="icons">
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="" alt="">
+                        <div class="texts">
+                            <h3>Segment title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis
+                                necessitatibus repudiandae nulla, nihil ipsa soluta voluptatibus eum voluptatum, eos
+                                labore quasi distinctio voluptas natus magnam at dignissimos quisquam deleniti.</p>
+                            <div class="icons">
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,17 +121,25 @@
     <div class="content cnt2">
         <div class="contentGrid">
             <div class="header">
-                <h2>content title</h2>
+                <h2>content title2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit cumque nemo deserunt accusantium enim
                     doloribus? Consectetur officia illo eos labore! Quis, mollitia asperiores velit non saepe neque
                     perferendis consectetur voluptas.</p>
             </div>
             <div class="section">
                 <div class="article">
-                    <img src="이미지경로" alt="설명">
-                    
-                    <div class="texts">
+                    <!-- video는 반드시 muted랑 같이 사용해한다.  -->
+                    <video src="./images/218490_medium.mp4" autoplay muted loop>비디오 대한 설명</video>
 
+                    <div class="texts">
+                        <h3>Segment title</h3>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <!-- css없이 강조하는 방법 mark,span,//b(굵게만),strong(키워드)// i(글씨를 기울게)/em(strong보다는 덜 중요한 키워드),/sub(작게하기)/sup/small(작게게)-->
+                        <p>Lorem <span>ipsum</span> dolor sit, <small>amet consectetur adipisicing elit.</small> Quod
+                            nihil dolorum nostrum dolore
+                            minus optio modi <i>b tag</i> <em>strong tag</em> labore dolor! Minima vel, ipsam laboriosam
+                            nam ratione
+                            repudiandae soluta deleniti nihil. H<sub>2</sub>O X<sup>2</sup></p>
                     </div>
                 </div>
             </div>
@@ -75,7 +150,7 @@
     <div class="content cnt3">
         <div class="contentGrid">
             <div class="header">
-                <h2>content title</h2>
+                <h2>content title3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit cumque nemo deserunt accusantium enim
                     doloribus? Consectetur officia illo eos labore! Quis, mollitia asperiores velit non saepe neque
                     perferendis consectetur voluptas.</p>
@@ -83,20 +158,40 @@
             <div class="section">
                 <div class="article 1">
                     <!-- ./ 이미지 불러오기 -->
-                    <img src="./아이티교욱.jpg" alt="아이티교육">
-                    <div class="texts"></div>
+                    <img src="./images/아이티교욱.jpg" alt="아이티교육">
+                    <div class="texts">
+                        <h3>Segment Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem quos, necessitatibus
+                            nemo, adipisci voluptas harum mollitia earum quibusdam deserunt expedita, explicabo maxime
+                            odio porro tenetur quidem nulla officiis hic!</p>
+                    </div>
                 </div>
                 <div class="article 2">
                     <img src="" alt="">
-                    <div class="texts"></div>
+                    <div class="texts">
+                        <h3>Segment Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem quos, necessitatibus
+                            nemo, adipisci voluptas harum mollitia earum quibusdam deserunt expedita, explicabo maxime
+                            odio porro tenetur quidem nulla officiis hic!</p>
+                    </div>
                 </div>
                 <div class="article 3">
                     <img src="" alt="">
-                    <div class="texts"></div>
+                    <div class="texts">
+                        <h3>Segment Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem quos, necessitatibus
+                            nemo, adipisci voluptas harum mollitia earum quibusdam deserunt expedita, explicabo maxime
+                            odio porro tenetur quidem nulla officiis hic!</p>
+                    </div>
                 </div>
                 <div class="article 4">
                     <img src="" alt="">
-                    <div class="texts"></div>
+                    <div class="texts">
+                        <h3>Segment Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem quos, necessitatibus
+                            nemo, adipisci voluptas harum mollitia earum quibusdam deserunt expedita, explicabo maxime
+                            odio porro tenetur quidem nulla officiis hic!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +208,9 @@
                 eos et ipsa odit doloremque esse tempore assumenda, hic sed saepe odio!</p>
 
             <div class="sns">
-
+                <i></i>
+                <i></i>
+                <i></i>
             </div>
         </div>
     </div>
