@@ -1,0 +1,106 @@
+@import url('./reset.css');
+
+/* 헤더탑 */
+div.headerTop{
+    background-color: #212517;;}
+div.headerTop>div.headerTopGrid{
+    width: 80%;  
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.headerTop>div.headerTopGrid>i{}
+
+/* 헤더 */
+div.headerWrap{
+    background-color: #A31F30;
+}
+div.headerWrap>div.header{
+    /* 속송명 : 속성값 */
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.headerWrap>div.header>h1{}
+div.headerWrap>div.header>ul{}
+div.headerWrap>div.header>ul>li{}
+
+
+
+/* 컨텐츠 공통통 */
+div.content{}
+div.content>div.contentGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.content>div.contentGrid>div.header{}
+div.content>div.contentGrid>div.header>h2
+div.content>div.contentGrid>div.header>p
+div.content>div.contentGrid>div.section{}
+div.content>div.contentGrid>div.section div.article{}
+div.content>div.contentGrid>div.section div.article>img{}
+div.content>div.contentGrid>div.section div.article>div.texts{}
+div.content>div.contentGrid>div.section div.article>div.texts>h3{}
+div.content>div.contentGrid>div.section div.article>div.texts>h4{}
+div.content>div.contentGrid>div.section div.article>div.texts>p{}
+
+/* 컨텐츠1 */
+div.content.cnt1{}
+div.content.cnt1>div.contentGrid{}
+div.content.cnt1>div.contentGrid>div.header{}
+div.content.cnt1>div.contentGrid>div.header>h2{}
+div.content.cnt1>div.contentGrid>div.header>p{}
+div.content.cnt1>div.contentGrid>div.section{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>img{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>img{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>h3{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>p{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons{}
+
+
+/* 컨텐츠2 */
+div.content.cnt2{}
+div.content.cnt2>div.contentGrid{}
+div.content.cnt2>div.contentGrid>header{}
+div.content.cnt2>div.contentGrid>header>h2{}
+div.content.cnt2>div.contentGrid>header>p{}
+div.content.cnt2>div.contentGrid>section{}
+div.content.cnt2>div.contentGrid>section>article{}
+div.content.cnt2>div.contentGrid>section>article>video{}
+div.content.cnt2>div.contentGrid>section>article>div.texts{}
+div.content.cnt2>div.contentGrid>section>article>div.texts>h3{}
+div.content.cnt2>div.contentGrid>section>article>div.texts>h4{}
+div.content.cnt2>div.contentGrid>section>article>div.texts>p{}
+
+/* 컨텐츠3 */
+div.content.cn3{}
+div.content.cn3>div.contentGrid{}
+div.content.cn3>div.contentGrid>div.header{}
+div.content.cn3>div.contentGrid>div.header>h2{}
+div.content.cn3>div.contentGrid>div.header>p{}
+div.content.cn3>div.contentGrid>div.section{}
+div.content.cn3>div.contentGrid>div.section>article{}
+div.content.cn3>div.contentGrid>div.section>article>img{}
+div.content.cn3>div.contentGrid>div.section>article>div.texts{}
+div.content.cn3>div.contentGrid>div.section>article>div.texts>h3{}
+div.content.cn3>div.contentGrid>div.section>article>div.texts>p{}
+
+/* 푸터 */
+div.footer{}
+div.footer>div.footerGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.footer>div.footerGrid>h4{}
+div.footer>div.footerGrid>p{}
+div.footer>div.footerGrid>div.sns{}
+div.footer>div.footerGrid>div.sns>i{}
+
+
